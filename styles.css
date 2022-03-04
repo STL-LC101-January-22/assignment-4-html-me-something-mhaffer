@@ -1,1 +1,91 @@
-/* Write your CSS here! */
+h1 {
+    color: #33202A;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+.navbar{
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size:20px;
+ }
+
+.btn {
+    display: block;
+    width: 85px ;
+    margin: 10px;
+    text-align: center;
+    background-color:  #F3E0EC; 
+    font-size: 15px
+}
+
+.btn a:hover {
+    display: block;
+    background-color: #75DDDD; 
+}
+
+.image {
+    border-radius: 15px;
+    padding: 5px;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image:hover {
+   filter: grayscale(1);
+}
+
+.imageMe {
+    border-radius: 15px;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    display: block;
+}
+
+h2 {
+   color: #2D82B7;
+   font-size: 40px;
+}
+
+
+.sections {
+    padding-top: 30px;
+    display: block;
+}
+
+.footer {
+    display: inline;
+    text-align: center;
+    background-color: #2D82B7;
+}
+
+
+
+
+.funParagraph {
+   color: green;
+}
+
+#mainHeading {
+    color: red;
+}
+
+.mainBody {
+    margin: 8px;
+    display: block;
+}
